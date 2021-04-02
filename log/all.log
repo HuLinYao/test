@@ -1,0 +1,20 @@
+03-30 15:38:28.441 [main] INFO  logging_log4j.Logging_Log4j
+start process...
+
+03-30 15:38:28.458 [main] ERROR logging_log4j.Logging_Log4j
+Invalid encoding
+
+java.io.UnsupportedEncodingException: invalidcharsetName
+	at java.lang.StringCoding.encode(StringCoding.java:440) ~[?:?]
+	at java.lang.String.getBytes(String.java:960) ~[?:?]
+	at logging_log4j.Logging_Log4j.main(Logging_Log4j.java:13) [test/:?]
+04-01 22:14:13.353 [main] INFO  logging_log4j.Logging_Log4j
+start process...
+
+04-01 22:14:13.374 [main] ERROR logging_log4j.Logging_Log4j
+Invalid encoding
+
+java.io.UnsupportedEncodingException: invalidcharsetName
+	at java.lang.StringCoding.encode(StringCoding.java:440) ~[?:?]
+	at java.lang.String.getBytes(String.java:960) ~[?:?]
+	at logging_log4j.Logging_Log4j.main(Logging_Log4j.java:13) [test/:?]
